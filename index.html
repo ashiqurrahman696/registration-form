@@ -10,40 +10,42 @@
     <div class="container">
         <h2>Registration Form</h2>
         <form action="" enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="name" placeholder="Your name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Your email address" required>
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone Number:</label>
-                <input type="tel" name="phone" id="phone" placeholder="Your phone number" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" name="password" id="password" placeholder="Your password" required>
-            </div>
-            <div class="form-group">
-                <label for="address">Address:</label>
-                <textarea name="address" id="address" placeholder="Your address" required></textarea>
-            </div>
-            <div class="form-group">
-                <label for="dob">Date of Birth:</label>
-                <input type="date" name="dob" id="dob" required>
-            </div>
-            <div class="form-group">
-                <span>Gender:</span>
-                <input type="radio" name="gender" id="male" required>
-                <label for="male" class="gender">Male</label>
-                <input type="radio" name="gender" id="female" required>
-                <label for="female" class="gender">Female</label>
-            </div>
-            <div class="form-group">
-                <label for="profile">Profile Picture:</label>
-                <input type="file" name="profile" id="profile" required>
+            <div class="grid">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Your email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Your password" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea name="address" id="address" placeholder="Your address" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" name="dob" id="dob" required>
+                </div>
+                <div class="form-group">
+                    <span>Gender:</span>
+                    <input type="radio" name="gender" id="male" required>
+                    <label for="male" class="gender">Male</label>
+                    <input type="radio" name="gender" id="female" required>
+                    <label for="female" class="gender">Female</label>
+                </div>
+                <div class="form-group">
+                    <label for="profile">Profile Picture:</label>
+                    <input type="file" name="profile" id="profile" required>
+                </div>
             </div>
             <div class="buttons">
                 <button type="submit" id="submit">Submit</button>
