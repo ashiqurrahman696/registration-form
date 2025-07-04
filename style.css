@@ -45,6 +45,10 @@ body{
             display: block;
             margin-bottom: 5px;
         }
+        & span{
+            display: block;
+            margin-bottom: 5px;
+        }
     }
     & .buttons button{
         border: none;
